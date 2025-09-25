@@ -123,6 +123,16 @@ header {
     width: 100%;
 }
 
+.ios-btn:hover,
+.ios-btn:active {
+    background-color: hsl(170, 33%, 62%);
+}
+
+.mac-btn:hover,
+.mac-btn:active {
+    background-color: hsl(233, 100%, 74%);
+}
+
 .ios-btn {
 
     background-color: var(--green500);
