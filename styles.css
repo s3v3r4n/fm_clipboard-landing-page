@@ -126,11 +126,13 @@ header {
 .ios-btn:hover,
 .ios-btn:active {
     background-color: hsl(170, 33%, 62%);
+    transition: background 0.2s;
 }
 
 .mac-btn:hover,
 .mac-btn:active {
     background-color: hsl(233, 100%, 74%);
+    transition: background 0.2s;
 }
 
 .ios-btn {
@@ -279,12 +281,25 @@ footer {
     text-align: center;
 }
 
+.footer-links a:hover, 
+.footer-links a:active {
+    color: var(--green500);
+    transition: color 0.1s;
+}
+
 .footer-socials {
     display: flex;
     gap: 1.5em;
     align-items: center;
     justify-content: center;
     
+}
+
+
+.footer-socials a img:hover {
+
+    filter: brightness(0) saturate(100%) invert(62%) sepia(17%) saturate(1568%) hue-rotate(122deg) brightness(94%) contrast(93%);
+    transition: filter 0.1s;
 }
 
 
